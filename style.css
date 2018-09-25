@@ -129,8 +129,10 @@ p {
 }
 
 .parallax-container {
-    height: 590px;
-    padding: 10px 0 100px 40px;
+    margin-top:100px;
+    height: 300px;
+    padding: 90px 0 100px 40px;
+    margin-bottom: 20px;
   }
 
   .carousel{
@@ -149,6 +151,8 @@ p {
 section{
     height: 665px;
 }
+
+
 @media only screen and (max-width: 600px) {
 
     .avatar {
@@ -239,9 +243,9 @@ p {
     padding: 10px;
 }
 .parallax-container {
-    height: 605px;
+    height: 420px;
     width: 100%;
-    padding: 60px  0 150px;   
+    padding: 100px  0 100px;   
   }
 
   section{
