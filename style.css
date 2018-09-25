@@ -76,7 +76,7 @@ header {
 
 
 li:hover {
-    background:#ba68c8 ;
+    background:#b2dfdb;
     color: #ffffff;
 }
 
@@ -135,12 +135,19 @@ p {
 
   .carousel{
     padding: 10px;
-    width: 60%;
+    width: 100%;
     height: 280px;
     float: left;
-    margin-top: 200px;
+    margin-top: 130px;
 }
 
+.imgCarousel{
+  height: 200px;
+}
+
+section{
+    height: 665px;
+}
 @media only screen and (max-width: 600px) {
 
     .avatar {
@@ -236,19 +243,9 @@ p {
     padding: 60px  0 150px;   
   }
 
-  .carousel{
-        padding: 10px;
-        margin-top: 50px;
-        width: 100%;
-        height: 220px;
-  }
-
-  .imgCarousel{
-    width: 40px;
-    height: 150px;
-  }
-
-
+  section{
+    height: 649px;
+}
 }
 
  
