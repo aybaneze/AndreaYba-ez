@@ -17,7 +17,7 @@ body {
 }
 .avatar{
     border-radius: 100%;  
-    width: 20%;
+    width: 25%;
 }
 
 .introText{
@@ -45,6 +45,7 @@ h3 {
     width: 100%;
     height: 660px; 
     border-bottom: 1px solid #ccc;
+    padding-top:100px;
     
 }
 
@@ -54,8 +55,8 @@ header {
     height:70px;
     background: #ffffff;
     border-bottom: 1px solid #ccc;
-    /* position: fixed;
-    top:0; */
+    position: fixed;
+    top:0;
 }
 
 .mobile {
@@ -67,16 +68,17 @@ header {
 }
 
 .avatarMedium {
-    border-radius:100px;
-    width: 8%;
-    height: 60px;
+    border-radius:100%;
+    width: 10%;
+    height: 64px;
     margin: 3px 3px ;
     float: left;
+    border-bottom: 1px solid #ccc;
 }
 
 
 li:hover {
-    background:#b2dfdb;
+    background:#008080;
     color: #ffffff;
 }
 
@@ -102,12 +104,14 @@ a:hover{
 }
 
 .introduccion{
-    width: 60%;
-    margin: 20px;
+    width: 50%;
+    margin: 30px 60px;
     float: left;
     background: #e9e8e8;
     border-bottom: 1px solid ;
     padding: 10px;
+    height: 400px;
+    border-radius: 100%;
 }
 
 h1 {
@@ -115,22 +119,19 @@ h1 {
     text-align: center;
     margin-top: 5px;
     font-weight: 600;
+    margin-left: 0;
 }
 
 p {
     font-size: 16px;
+    margin-left: 90px;
     text-align: center;
+    width: 70%;
 }
 
-#projects{
-    height: 608px;
-
-    border-bottom: 1px solid #ccc;
-}
 
 .parallax-container {
-    margin-top:100px;
-    height: 300px;
+    height: 250px;
     padding: 90px 0 100px 40px;
     margin-bottom: 20px;
   }
@@ -160,11 +161,18 @@ section{
   float: center;
 }
 
+.card{
+  height:  550px;
+}
+
+.stefanini{
+    border-radius:20px;
+}
 @media only screen and (max-width: 600px) {
 
     .avatar {
         border-radius: 100%;
-        width: 45%;
+        width: 50%;
         height: 150px;
     }
     .intro {
@@ -209,7 +217,7 @@ section{
 
 .avatarSmall {
     border-radius:100px;
-    width: 20%;
+    width: 25%;
     height: 17%;
     margin: 2px;
     float: right;
@@ -219,30 +227,24 @@ section{
     display: none;
 }
 
-.introduccion{
-    width: 100%;
-    padding: 20px;
-    float: center;
-    margin: 0;
-    background: #e9e8e8;
-    border-bottom: 1px solid ;
-}
-
 h1 {
     font-size: 32px;
     text-align: center;
     margin-top: 5px;
     font-weight: 600;
-    
+    margin-bottom: 5px;   
 }
 
 p {
     font-size: 14px;
+    width: 90%;
     text-align: center;
+    margin: 5px 15px;
 }
 
 .bloqueMenu{
     height: 640px;
+    padding-top:30px; 
 }
 
 #projects{
@@ -250,14 +252,13 @@ p {
     padding: 10px;
 }
 .parallax-container {
-    height: 420px;
-    width: 100%;
-    padding: 100px  0 100px;   
+    height: 300px;
+    width: 100%;   
   }
 
   section{
     height: 649px;
-    padding: 0;
+    padding-top: 50px;
 }
 
 #contacto{
@@ -268,6 +269,14 @@ p {
 
 }
 
+.card{
+    height:  510px;
+    margin: 15px 0;
+  }
+
+  .stefanini{
+      border-radius:20px;
+  }
 
 }
 
