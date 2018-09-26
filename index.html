@@ -13,28 +13,28 @@
   <title>AndreaYbañez</title>
 </head>
 <body> 
-  <nav class="pushpin-demo-nav pinned ">
-          <div class="nav-wrapper white">
-            <a href="#!" class="brand-logo"><img class="avatarMedium" src="logo.png" alt="avatar"></a>
-            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons black-text">menu</i></a>
-            <ul class="right hide-on-med-and-down">
-              <li><a href="#inicio" class="black-text">INICIO</a></li>
-              <li><a href="#second" class="black-text">ACERCA DE MÍ</a></li>
-              <li><a href="#skills" class="black-text">SKILLS</a></li>
-              <li><a href="#projects" class="black-text">PROYECTOS</a></li>
-              <li><a href="#contacto" class="black-text">CONTÁCTAME</a></li>
-            </ul>
-          </div>
-        </nav>
-      
-        <ul class="sidenav" id="mobile-demo">
+    <nav >
+        <div class="nav-wrapper white fixed">
+          <a href="#!" class="brand-logo"><img class="avatarMedium" src="logo.png" alt="avatar"></a>
+          <a href="#" data-target="menu-responsive" class="sidenav-trigger"><i class="material-icons black-text">menu</i></a>
+          <ul class="right hide-on-med-and-down hide-on-small-only">
             <li><a href="#inicio" class="black-text">INICIO</a></li>
             <li><a href="#second" class="black-text">ACERCA DE MÍ</a></li>
             <li><a href="#skills" class="black-text">SKILLS</a></li>
             <li><a href="#projects" class="black-text">PROYECTOS</a></li>
             <li><a href="#contacto" class="black-text">CONTÁCTAME</a></li>
-        </ul>
-  <section id="inicio" class ="bloqueInicial teal scrollSpy">
+          </ul>
+        </div>
+      </nav> 
+      <ul class="sidenav" id="menu-responsive">
+          <li><a href="#inicio" class="black-text sidenav-close">INICIO</a></li>
+          <li><a href="#second" class="black-text sidenav-close">ACERCA DE MÍ</a></li>
+          <li><a href="#skills" class="black-text sidenav-close">SKILLS</a></li>
+          <li><a href="#projects" class="black-text sidenav-close">PROYECTOS</a></li>
+          <li><a href="#contacto" class="black-text sidenav-close">CONTÁCTAME</a></li>
+      </ul>
+  <section id="inicio" class ="bloqueInicial teal scrollspy">
+     
     <div class="intro">
       <div class = "introText">
       <img class="avatar" src="perfil.jpeg" alt="avatar">
@@ -45,12 +45,11 @@
       </div>
     </div>
   </section>
-    <section id="second" class="bloqueMenu scrollSpy">           
-            
-           <div class="row">
+    <section  class=" bloqueMenu">                 
+           <div  class=" row">
              <div class="col l12 m12 s12 "> 
             <div  class="col l6 m6">
-            <h1 class="teal-text">ACERCA DE MÍ</h1>
+            <h1 id="second"  class="teal-text scrollspy">ACERCA DE MÍ</h1>
             <p>
               Hola, mi nombre es Andrea Ybañez tengo 22 años soy Front-End Developer y estudiante de Ingenieria de Sistemas.
               Mi gran inspiración es saber que gracias a las ideas que aporto se crean productos tecnológicos que agregan valor a las personas y que generen alto impacto. 
@@ -61,17 +60,16 @@
           
           </div>  
                 <div class="col m6 l6 s12">
-                  <img class="col m12 s12 l12 stefanini" src="stefanini.jpeg">
+                  <img class="col m12 s12 l12 stefanini responsive-img" src="stefanini.jpeg">
                </div>
              </div>
            </div>
         
          <!--    -->
     </section>
-    <section id="skills" class="scrollSpy"> 
-        <div class="row">
-          <div class="col m12 s12 ">
-          <div class="carousel col m6 ">
+    <section id="skills" class="scrollspy"> 
+        <div class="row ">
+          <div class="col m8 l6 imagenesVar">
             <div class="col m12 hide-on-small-only">
               <a class="carousel-item" href="#one!"><img class="imgCarousel" src="html.png"></a>
               <a class="carousel-item" href="#two!"><img class="imgCarousel" src="js.png"></a>
@@ -80,12 +78,9 @@
               <a class="carousel-item" href="#five!"><img class="imgCarousel" src="git.png"></a>
               <a class="carousel-item" href="#five!"><img class="imgCarousel" src="nodejs.png"></a>
             </div>
-        
-            </div>
-    
-             
+          </div>             
 
-                  <div class="col s12 m6">
+                  <div class="col s12 m4 l6">
                     <h1 class="teal-text lighten-4">SKILLS</h1>  
                     <div class="col m12 col s12">
                       <p class="left-align ">HTML</p>  
@@ -118,11 +113,6 @@
      
     </section>
     <section id="projects" class="scrollSpy" >
-        <div class="parallax-container center valign-wrapper">  
-           <div class="parallax">
-             <img src="developer.jpg">
-           </div>
-        </div>
         <div class="row">
        <div class="col m12">
           <div class="col m12 s12 center ">
@@ -234,7 +224,7 @@
               
       </div>
 
-      <div  id="contacto" class="col m12 s12 teal scrollSpy" >
+      <div  id="contacto" class="col m12 s12 teal scrollspy" >
           <div class="row">
             <div class="col m5 white-text">
               <h1>Contacto</h1>
@@ -254,10 +244,6 @@
     </section>
 
     
-      
- 
-    
-          <!-- <img src="perfil2.jpg" alt="perfil"> -->
           <script src="http://code.jquery.com/jquery-latest.js"></script> 
           <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="app.js"></script>

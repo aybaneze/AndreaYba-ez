@@ -12,7 +12,7 @@ body {
 }
 
 .bloqueInicial{
-    height:  660px;
+    height:  650px;
     width: 100%;
 }
 .avatar{
@@ -108,27 +108,20 @@ p {
     width: 70%;
 }
 
-
 .parallax-container {
     height: 250px;
     margin: 50px 0;
   }
 
-  .carousel{
-    padding: 10px;
-    width: 500%;
-    height: 280px;
-    float: center;
-    margin-top: 130px;
-}
-
 .imgCarousel{
   height: 150px;
-  width: 300px;
+  width: 130px;
+  margin:20px;
 }
 
 section{
-    height: 665px;
+    height: 630px;
+    background: rgb(255, 255, 238);
     padding-top: 100px;
 }
 
@@ -154,9 +147,10 @@ a:hover{
     color:#ffffff;
 }
 
-.btnCv{
-    float:left;
+.imagenesVar{
+    margin: 80px 0 0 150px;
 }
+
 @media only screen and (max-width: 600px) {
 
     .avatar {
@@ -224,13 +218,8 @@ p {
 
 #projects{
     height: 645px;
-    padding: 10px;
+    padding: 0;
 }
-.parallax-container {
-    height: 150px;
-    width: 100%;   
-    margin: 50px 0;
-  }
 
   section{
     height: 649px;
@@ -254,6 +243,14 @@ p {
       border-radius:20px;
   }
 
+  .nav{
+    width: 200px;
 }
+.carousel{
+    display: none;
+}
+
+}
+
 
  
