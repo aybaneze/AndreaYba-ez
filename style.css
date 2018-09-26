@@ -8,7 +8,7 @@ body {
     text-align: center;
     width: 100%;
     height: 100%;
-    padding-top: 10%;
+    padding-top: 50px;
 }
 
 .bloqueInicial{
@@ -49,16 +49,6 @@ h3 {
     
 }
 
-header {
-    margin: 0;
-    width: 100%;
-    height:70px;
-    background: #ffffff;
-    border-bottom: 1px solid #ccc;
-    position: fixed;
-    top:0;
-}
-
 .mobile {
     display: none;
 }
@@ -67,18 +57,14 @@ header {
     display: block;
 }
 
-.avatarMedium {
-    border-radius:100%;
-    width: 10%;
-    height: 64px;
-    margin: 3px 3px ;
-    float: left;
-    border-bottom: 1px solid #ccc;
+.avatarMedium { 
+    width: 80%;
+    height: 60px;
 }
 
 
 li:hover {
-    background:#008080;
+    background:hsl(180, 99%, 33%);
     color: #ffffff;
 }
 
@@ -94,13 +80,6 @@ padding:18px 12px;
 font-weight: 600;
 height: 70px;
 pointer-events: all;
-}
-    
-a{
-    color:#000;
-}
-a:hover{
-    color:#ffffff;
 }
 
 .introduccion{
@@ -132,8 +111,7 @@ p {
 
 .parallax-container {
     height: 250px;
-    padding: 90px 0 100px 40px;
-    margin-bottom: 20px;
+    margin: 50px 0;
   }
 
   .carousel{
@@ -169,6 +147,16 @@ section{
 .stefanini{
     border-radius:20px;
 }
+a{
+    color: #000000;;
+}
+a:hover{
+    color:#ffffff;
+}
+
+.btnCv{
+    float:left;
+}
 @media only screen and (max-width: 600px) {
 
     .avatar {
@@ -178,7 +166,7 @@ section{
     }
     .intro {
         text-align: center;
-        padding-top: 45%;
+        padding-top: 100px;
     }
 
     .introText {
@@ -201,27 +189,13 @@ section{
         margin-bottom: 25px;
     }
 
-    header {
-        width: 100%;
-        height:  30px;
-        padding: 3px;
-        background: #ffffff;
-        border-bottom: 1px solid #ccc;
-        /* zoom: 1;
-        position: fixed; 
-        top: 0px; */
-    }
-
 .mobile {
     display: block;
 }
 
-.avatarSmall {
-    border-radius:100px;
-    width: 25%;
-    height: 17%;
-    margin: 2px;
-    float: right;
+.avatarMedium {
+    width: 80%;
+    height: 55px;
 }
 
 .desk {
@@ -245,7 +219,7 @@ p {
 
 .bloqueMenu{
     height: 640px;
-    padding-top:30px; 
+    padding-top:60px; 
 }
 
 #projects{
@@ -253,13 +227,14 @@ p {
     padding: 10px;
 }
 .parallax-container {
-    height: 300px;
+    height: 150px;
     width: 100%;   
+    margin: 50px 0;
   }
 
   section{
     height: 649px;
-    padding-top: 50px;
+    padding-top: 80px;
 }
 
 #contacto{

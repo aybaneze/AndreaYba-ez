@@ -12,42 +12,40 @@
   <link rel="stylesheet" href="style.css">
   <title>AndreaYbañez</title>
 </head>
-<body>
-  <section id="inicio" class ="bloqueInicial teal">
-      <header> 
-          <div class="mobile">
-            <a class='dropdown-trigger' href='#' data-target='dropdown1'> <i class="small material-icons left">menu</i> </a>
-
-            <!-- Dropdown Structure -->
-            <ul id='dropdown1' class='dropdown-content'>
-              <li><a href="#inicio">INICIO</a></li>
-              <li><a href="#sobreMi">ACERCA DE MÍ</a></li>
-              <li><a href="#sobreMi">SKILLS</a></li>
-              <li><a href="#projects">PROYECTOS</a></li>
-              <li><a href="#contacto">CONTÁCTAME</li>
+<body> 
+  <nav class="pushpin-demo-nav pinned ">
+          <div class="nav-wrapper white">
+            <a href="#!" class="brand-logo"><img class="avatarMedium" src="logo.png" alt="avatar"></a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons black-text">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+              <li><a href="#inicio" class="black-text">INICIO</a></li>
+              <li><a href="#second" class="black-text">ACERCA DE MÍ</a></li>
+              <li><a href="#skills" class="black-text">SKILLS</a></li>
+              <li><a href="#projects" class="black-text">PROYECTOS</a></li>
+              <li><a href="#contacto" class="black-text">CONTÁCTAME</a></li>
             </ul>
-          </div> 
-          <div class="desk">
-            <ul>
-                <a href="#contacto"><li>CONTÁCTAME</li></a> 
-                <a href="#sobreMi"><li>SKILLS</li></a>
-                <a href="#projects"><li>PROYECTOS</li></a>                
-                <a href="#sobreMi"><li>ACERCA DE MÍ</li></a>
-                <a href="#inicio"><li>INICIO</li></a>              
-            </ul>
-             <img class="avatarMedium" src="logo.png" alt="avatar">
           </div>
-        </header>
+        </nav>
+      
+        <ul class="sidenav" id="mobile-demo">
+            <li><a href="#inicio" class="black-text">INICIO</a></li>
+            <li><a href="#second" class="black-text">ACERCA DE MÍ</a></li>
+            <li><a href="#skills" class="black-text">SKILLS</a></li>
+            <li><a href="#projects" class="black-text">PROYECTOS</a></li>
+            <li><a href="#contacto" class="black-text">CONTÁCTAME</a></li>
+        </ul>
+  <section id="inicio" class ="bloqueInicial teal scrollSpy">
     <div class="intro">
       <div class = "introText">
       <img class="avatar" src="perfil.jpeg" alt="avatar">
       <h2> Soy Andrea Ybañez</h2>
       <h3>Front-End Developer</h3>
       <a href="#second" class="waves-effect waves-light teal darken-3 btn">VER PORTAFOLIO</a>
+      <a href="pdf/cv_andreaYbanez.pdf" download="cv_AndreaYbañez" target="_blank" class="waves-effect waves-light btn col m6 center"> <i class="fa fa-download"></i>       Descargar Mi CV</a>
       </div>
     </div>
   </section>
-    <section id="second" class="bloqueMenu">           
+    <section id="second" class="bloqueMenu scrollSpy">           
             
            <div class="row">
              <div class="col l12 m12 s12 "> 
@@ -58,7 +56,9 @@
               Mi gran inspiración es saber que gracias a las ideas que aporto se crean productos tecnológicos que agregan valor a las personas y que generen alto impacto. 
               Busco aprender de manera constante, y aspiro a ser full-stack en el futuro. Me encanta el diseño, y lo genial del desarrollo web es que puedo plasmar el arte en código. 
               Actualmente formo parte de la 8va promoción de Laboratoria y he podido desarrollar habilidades tanto técnicas como blandas a través del desarrollo de proyectos de gran envergadura.
-            </p>
+               </p>
+              
+          
           </div>  
                 <div class="col m6 l6 s12">
                   <img class="col m12 s12 l12 stefanini" src="stefanini.jpeg">
@@ -66,30 +66,28 @@
              </div>
            </div>
         
-         <!-- <div class="row">
-           <div class="col m12 s12" >
-         <a href="pdf/cv_andreaYbañez.pdf" download="cv_AndreaYbañez" target="_blank" class="waves-effect waves-light btn center col m4 "> <i class="fa fa-download"></i>       Descargar Mi CV</a>
-         </div>
-          </div>     -->
+         <!--    -->
     </section>
-    <section> 
+    <section id="skills" class="scrollSpy"> 
         <div class="row">
-          <div class="col m12 ">
-          
-          <div class="carousel col m6 hide-on-small-only">
-            <div class="m12">
+          <div class="col m12 s12 ">
+          <div class="carousel col m6 ">
+            <div class="col m12 hide-on-small-only">
               <a class="carousel-item" href="#one!"><img class="imgCarousel" src="html.png"></a>
               <a class="carousel-item" href="#two!"><img class="imgCarousel" src="js.png"></a>
               <a class="carousel-item" href="#three!"><img class="imgCarousel" src="css.png"></a>
               <a class="carousel-item" href="#four!"><img class="imgCarousel" src="github.png"></a>
               <a class="carousel-item" href="#five!"><img class="imgCarousel" src="git.png"></a>
               <a class="carousel-item" href="#five!"><img class="imgCarousel" src="nodejs.png"></a>
-              </div>
             </div>
-            
-                  <div class="col s12 col m6">
+        
+            </div>
+    
+             
+
+                  <div class="col s12 m6">
                     <h1 class="teal-text lighten-4">SKILLS</h1>  
-                    <div class="col m12 right col s12">
+                    <div class="col m12 col s12">
                       <p class="left-align ">HTML</p>  
                     <div class="progress white-text" style="height: 20px;">
                        <div class="determinate center-align" style="width: 90%">90 %</div>
@@ -119,14 +117,14 @@
               </div>
      
     </section>
-    <section >
+    <section id="projects" class="scrollSpy" >
         <div class="parallax-container center valign-wrapper">  
            <div class="parallax">
              <img src="developer.jpg">
            </div>
         </div>
         <div class="row">
-       <div class="col m12  ">
+       <div class="col m12">
           <div class="col m12 s12 center ">
           <h2 class="teal-text">Mis Proyectos</h2>
            </div>
@@ -236,7 +234,7 @@
               
       </div>
 
-      <div  id="contacto" class="col m12 s12 teal" >
+      <div  id="contacto" class="col m12 s12 teal scrollSpy" >
           <div class="row">
             <div class="col m5 white-text">
               <h1>Contacto</h1>
@@ -246,7 +244,7 @@
             </div>
             <div class="col m5 white-text">
               <h1>Redes Sociales</h1>
-              <a href="https://github.com/aybaneze" target="_blank"><i class="fa fa-github medium">  </i>     Git-Hub    /<em>    aybaneze</em></a><br>
+              <a href="https://github.com/aybaneze" target="_blank" ><i class="fa fa-github medium">  </i>     Git-Hub    /<em>    aybaneze</em></a><br>
               <a href="https://www.linkedin.com/in/andreaybanezesquerre/" target="_blank"><i class="fa fa-linkedin-square medium"></i>     LinkedIn    /<em>   Andrea Ybañez Esquerre</em></a><br>
               <a href="https://plus.google.com/u/0/+andreayba%C3%B1ez" target="_blank"><i class="fa fa-google-plus-circle medium"></i>     Google+    /<em>   Andrea Ybañez Esquerre</em></a>
             </div>
