@@ -2,19 +2,23 @@ document.addEventListener('DOMContentLoaded', function() {
   M.AutoInit(); 
 });
 
-$('.dropdown-trigger').dropdown();
-$(document).ready(function(){
-  $('.slider').slider();
+document.addEventListener('DOMContentLoaded', function() {
+  var elems = document.querySelectorAll('.sidenav');
+  var instances = M.Sidenav.init(elems, options);
 });
 
-$(document).ready(function(){
-  $('.pushpin').pushpin();
+document.addEventListener('DOMContentLoaded', function() {
+  var elems = document.querySelectorAll('.scrollspy');
+  var instances = M.ScrollSpy.init(elems, options);
 });
 
-$(document).ready(function(){
-  $('.sidenav').sidenav();
-});
+// $('.dropdown-trigger').dropdown();
+// $(document).ready(function(){
+//   $('.slider').slider();
+// });
 
-$(document).ready(function(){
-  $('.scrollspy').scrollspy();
-});
+// $(document).ready(function(){
+//   $('.pushpin').pushpin();
+// });
+
+

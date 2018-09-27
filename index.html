@@ -1,124 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <!-- Compiled and minified JavaScript -->        
-  <link rel="stylesheet" href="style.css">
-  <title>AndreaYbañez</title>
+    <link rel="stylesheet" href="style.css">
+    <title>AndreaYbañez</title>
 </head>
-<body> 
+<body>
   <div  class="navbar-fixed" >
     <nav>
         <div class="nav-wrapper white">
           <a href="#!" class="brand-logo"><img class="avatarMedium" src="logo.png" alt="avatar"></a>
           <a href="#" data-target="menu-responsive" class="sidenav-trigger"><i class="material-icons black-text">menu</i></a>
-          <ul class="right hide-on-med-and-down hide-on-small-only">
-            <li><a href="#inicio" class="black-text">INICIO</a></li>
-            <li><a href="#second" class="black-text">ACERCA DE MÍ</a></li>
-            <li><a href="#skills" class="black-text">SKILLS</a></li>
-            <li><a href="#projects" class="black-text">PROYECTOS</a></li>
-            <li><a href="#contacto" class="black-text">CONTÁCTAME</a></li>
+          <ul class=" right hide-on-med-and-down hide-on-small-only">
+            <li><a href="#inicio" class="black-text hoverable">INICIO</a></li>
+            <li><a href="#acercaDeMi" class="black-text hoverable">ACERCA DE MÍ</a></li>
+            <li><a href="#skills" class="black-text hoverable">SKILLS</a></li>
+            <li><a href="#projects" class="black-text hoverable">PROYECTOS</a></li>
+            <li><a href="#contacto" class="black-text hoverable">CONTÁCTAME</a></li>
           </ul>
         </div>
       </nav> 
     </div>
       <ul class="sidenav" id="menu-responsive">
           <li><a href="#inicio" class="black-text sidenav-close">INICIO</a></li>
-          <li><a href="#second" class="black-text sidenav-close">ACERCA DE MÍ</a></li>
+          <li><a href="#acercaDeMi" class="black-text sidenav-close">ACERCA DE MÍ</a></li>
           <li><a href="#skills" class="black-text sidenav-close">SKILLS</a></li>
           <li><a href="#projects" class="black-text sidenav-close">PROYECTOS</a></li>
           <li><a href="#contacto" class="black-text sidenav-close">CONTÁCTAME</a></li>
       </ul>
-  <section id="inicio" class ="bloqueInicial teal section scrollspy">
-     
-    <div class="intro">
-      <div class = "introText">
-      <img class="avatar" src="perfil.jpeg" alt="avatar">
-      <h2> Soy Andrea Ybañez</h2>
-      <h3>Front-End Developer</h3>
-      <a href="#second" class="waves-effect waves-light teal darken-3 btn">VER PORTAFOLIO</a>
-      <a href="pdf/CV-AndreaYbanezEsquerre.pdf" download="cv_AndreaYbañez" target="_blank" class="waves-effect waves-light btn col m6 center"> <i class="fa fa-download"></i>       Descargar Mi CV</a>
-      </div>
-    </div>
-  </section>
-    <section  class=" bloqueMenu">                 
-           <div  class=" row">
-             <div class="col l12 m12 s12 "> 
-            <div  class="col l6 m12 s12">
-            <h1 id="second"  class="teal-text scrollspy">ACERCA DE MÍ</h1>
-            <p class="col m12">
-              Hola, mi nombre es Andrea Ybañez tengo 22 años soy Front-End Developer y estudiante de Ingenieria de Sistemas.
-              Mi gran inspiración es saber que gracias a las ideas que aporto se crean productos tecnológicos que agregan valor a las personas y que generen alto impacto. 
-              Busco aprender de manera constante, y aspiro a ser full-stack en el futuro. Me encanta el diseño, y lo genial del desarrollo web es que puedo plasmar el arte en código. 
-              Actualmente formo parte de la 8va promoción de Laboratoria y he podido desarrollar habilidades tanto técnicas como blandas a través del desarrollo de proyectos de gran envergadura.
-               </p>
-          </div>  
-                <div class="col m12 l6 s12">
-                  <img class="col m12 s12 l12 stefanini responsive-img" src="stefanini.jpeg">
-               </div>
-             </div>
-           </div>
-        
-         <!--    -->
-    </section>
-    <section id="skills" class="section scrollspy"> 
-        <div class="row ">
-          <div class="col m8 l6 imagenesVar">
-            <div class="col m12 hide-on-small-only">
-              <a class="carousel-item" href="#one!"><img class="imgCarousel" src="html.png"></a>
-              <a class="carousel-item" href="#two!"><img class="imgCarousel" src="js.png"></a>
-              <a class="carousel-item" href="#three!"><img class="imgCarousel" src="css.png"></a>
-              <a class="carousel-item" href="#four!"><img class="imgCarousel" src="github.png"></a>
-              <a class="carousel-item" href="#five!"><img class="imgCarousel" src="git.png"></a>
-              <a class="carousel-item" href="#five!"><img class="imgCarousel" src="nodejs.png"></a>
-            </div>
-          </div>             
 
-                  <div class="col s12 m4 l6">
-                    <h1 class="teal-text lighten-4">SKILLS</h1>  
-                    <div class="col m12 col s12">
-                      <p class="left-align ">HTML</p>  
-                    <div class="progress white-text" style="height: 20px;">
-                       <div class="determinate center-align" style="width: 90%">90 %</div>
-                    </div>
-                       <p class="left-align">CSS</p>
-                    <div class="progress white-text" style="height: 20px;">
-                        <div class="determinate center-align" style="width: 95%">95 %</div>
-                    </div> 
-                       <p class="left-align">JAVASCRIPT</p>
-                    <div class="progress white-text" style="height: 20px;">
-                        <div class="determinate center-align" style="width: 75%">75 %</div>
-                    </div>
-                       <p class="left-align">GIT</p>
-                    <div class="progress white-text" style="height: 20px;">
-                        <div class="determinate center-align" style="width: 82%">82 %</div>
-                    </div>
-                       <p class="left-align">GIT-HUB</p>
-                    <div class="progress white-text" style="height: 20px;">
-                        <div class="determinate center-align" style="width: 80%">80 %</div>
-                    </div> 
-                       <p class="left-align">NODE.JS</p>
-                    <div class="progress white-text" style="height: 20px;">
-                        <div class="determinate center-align" style="width: 70%">70 %</div>
-                    </div>
-                  </div>
-              </div>
-              </div>
-     
-    </section>
-    <section id="projects" class="section scrollspy" >
+    <!-- Inicio del portafolio -->
+    <section id="inicio" class="center teal scrollspy">
+      <div class="container inicioImg">
         <div class="row">
-       <div class="col m12">
-          <div class="col m12 s12 center ">
-          <h2 class="teal-text">Mis Proyectos</h2>
-           </div>
-        <div class="col m12 col s12 center">
+                  <img src="imagenes/perfil.jpeg" class="col s12 l12 circle" alt="perfilAndreaYbanez">
+        </div>
+        <div class="row">
+          <h3 class="white-text"> Soy Andrea Ybañez</h2>
+          <h5 class="white-text">Front-End Developer</h3>
+            <a href="#second" class="waves-effect waves-light teal darken-3 btn col s12 m6 l6">ACERCA DE MÍ</a>
+            <a href="pdf/CV-AndreaYbanezEsquerre.pdf" download="cv_AndreaYbañez" target="_blank" class="waves-effect waves-light btn col s12 m6 l6 center"> <i class="fa fa-download"></i>  Descargar Mi CV</a>      
+        </div>
+     </div>
+    </section>
+
+    <!-- Acerca de mi del portafolio -->
+    <section id="acercaDeMi" class="scrollspy">
+      <div class="container">
+        <div class="row center">
+            <h2 class="teal-text">ACERCA DE MÍ</h2>
+        </div>
+        <div class="row">
+          <div class="col s12 m6 l6">
+              <h6 class="center">
+                Mi nombre es Andrea Ybañez, tengo 22 años, soy Front-End Developer de la 8va promoción de Laboratoria, con estudios en Ingenieria de Sistemas.
+                Mi gran inspiración es saber que gracias al aporte de mis ideas y del trabajo en equipo se crean productos tecnológicos que agregan valor a las personas y que generen alto impacto. 
+                Busco aprender de manera constante con proyectos que me reten técnicamente.  
+                Aspiro a ser una programadora full-stack en el futuro. Me encanta el diseño, y lo genial del desarrollo web es que puedo plasmar el arte en código. 
+              </h6>
+          </div>
+          <div class="col s12 m6 l6">
+              <img class="col m12 s12 l12 stefanini responsive-img" src="stefanini.jpeg">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- sección de proyectos en portafolio -->
+
+    <section id="skills" class="scrollspy">
+      <div class="container">
+        <div class="row center">
+            <h2 class="teal-text">SKILLS</h2>
+        </div>
+        <div class="row center">
+          <div class="col s12 m5 l5 ">
+              <i class="fas fa-users large icon"><label class="black-text "> TRABAJO EN EQUIPO</label></i>
+              <i class="fas fa-book-reader large icon"><label class="black-text"> AUTODIDACTA</label></i>
+              <i class="fas fa-handshake large icon"><label class="black-text">   COMPROMISO</label></i>
+              <i class="far fa-clock large icon"> <label class="black-text">      PUNTUALIDAD</label></i>             
+          </div>
+          <div class="col s12 m5 l5">
+              <i class="fab fa-js-square large icon"><label class="black-text">JAVASCRIPT</label></i>           
+              <i class="fab fa-css3-alt large icon"><label class="black-text">CSS</label></i>
+              <i class="fab fa-github icon large"><label class="black-text">GIT-HUB</label></i>
+              <i class="fab fa-html5 icon large"> <label class="black-text">HTML</label></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="row center">
+            <h2 class="teal-text">Mis Proyectos</h2>
+        </div>
+        <div class="row">
                 <div class="col s12 m6 l4">
                   <div class="card">
                     <div class="card-image">
@@ -178,7 +163,7 @@
                       </div>
                       <div class="card-content">
                         <p>FreeW! es una Red social, que ayuda a las mujeres a poder compartir información de manera libre sin necesidad de prejuicios</p>
-                      </div>
+                      </div>  
                       <div class="card-action">
                           <a href="https://github.com/aybaneze/lim-2018-05-bc-core-pm-socialnetwork" target="_blank" class="teal-text">Ver repositorio</a>
                         </div>
@@ -220,32 +205,35 @@
                         <a href="https://github.com/aybaneze/lim-2018-05-bc-core-pm-cipher" target="_blank" class="teal-text">ver repositorio</a>
                       </div>
                   </div>
-                </div>
-              
+                </div>         
       </div>
-
-      <div  id="contacto" class="col m12 s12 teal section scrollspy" >
-          <div class="row">
-            <div class="col m5 white-text">
-              <h1>Contacto</h1>
-              <i class="material-icons medium">location_city</i>  Lima - Perú <br>
-              <i class="	fa fa-phone-square medium">  </i>  930692689 <br>
-              <i class="material-icons medium">email</i>  andrea270696@gmail.com   
-            </div>
-            <div class="col m5 white-text">
-              <h1>Redes Sociales</h1>
-              <a href="https://github.com/aybaneze" target="_blank" ><i class="fa fa-github medium">  </i>     Git-Hub    /<em>    aybaneze</em></a><br>
-              <a href="https://www.linkedin.com/in/andreaybanezesquerre/" target="_blank"><i class="fa fa-linkedin-square medium"></i>     LinkedIn    /<em>   Andrea Ybañez Esquerre</em></a><br>
-              <a href="https://plus.google.com/u/0/+andreayba%C3%B1ez" target="_blank"><i class="fa fa-google-plus-circle medium"></i>     Google+    /<em>   Andrea Ybañez Esquerre</em></a>
-            </div>
-        </div>
-      </div>
-     
     </section>
 
-    
-          <script src="http://code.jquery.com/jquery-latest.js"></script> 
-          <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <footer>
+      <div class="container">
+        <div class="row">
+            <div  id="contacto" class="col m12 s12 teal section scrollspy" >
+                <div class="col m5 l5 white-text">
+                  <h1>Contacto</h1>
+                  <i class="material-icons medium">location_city</i>  Lima - Perú <br>
+                  <i class="	fa fa-phone-square medium">  </i>  930692689 <br>
+                  <i class="material-icons medium">email</i>  andrea270696@gmail.com   
+                </div>
+                <div class="col m5 l5">
+                  <h2>Redes Sociales</h1>
+                  <a href="https://github.com/aybaneze" target="_blank" ><i class="fab fa-github large">     Git-Hub  </a><br>
+                  <a href="https://www.linkedin.com/in/andreaybanezesquerre/" target="_blank"><i class="fa fa-linkedin-square medium"></i>     LinkedIn    /<em>   Andrea Ybañez Esquerre</em></a><br>
+                  <a href="https://plus.google.com/u/0/+andreayba%C3%B1ez" target="_blank"><i class="fa fa-google-plus-circle medium"></i>     Google+    /<em>   Andrea Ybañez Esquerre</em></a>
+                </div>
+        </div>
+
+      </div>
+    </footer>
+  
+
+
+
+
     <script src="app.js"></script>
 </body>
 </html>
