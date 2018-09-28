@@ -34,302 +34,34 @@ label{
 
 footer{
 background: teal;
+margin:0;
 }
 
 a{
     text-decoration: none;
 }
-    /* 
-@media only screen and (max-width: 900px) {
-    .inicioImg{
-        padding: 10%;
-    }
 
-} */
-
-
-/* @media only screen and (max-width: 600px) { 
-    .inicioImg{
-        padding: 10%;
-    }
-
-} */
-/*
-#inicio{
-    margin-top: 0px;
-    height: 600px;
+.footerClass{
+    margin:0;
+    padding: 0 0 50px 0;
 }
 
-section{
-    height: 530px;
-    background: #ffffff;
+.imgProyect{
+    width: 40%;
+    height: 90%;
 }
 
-.container{
-    width: 90%;
-    margin:50px 5% 0 5% ;
-    padding: 25px;
-    text-align: center;
-}
-
-.perfil{
-    width: 30%;
-    height: 200px;
-    border-radius: 100%;
-}
-
-h2 {
-    font-size: 42px;
-    color:#e9e8e8;
-    font-family: sans-serif;;
-    font-weight: 500;
-    margin-top: 3px;
-   
-}
-
-h3 {
-    font-size: 24px;
-    color:#e9e8e8;
-    font-family: sans-serif;
-    font-weight: 100;
-    margin-top: 5px; 
-}
-
-.mobile {
-    display: none;
-}
-
-.desk {
-    display: block;
-}
-
-.avatarMedium { 
+.imgLaptop{
     width: 80%;
-    height: 60px;
-}
-
-
-li:hover {
-    background:hsl(180, 99%, 33%);
-    color: #ffffff;
-}
-
-ul{
-    margin: 0;
-    padding:0 13px;
-}
-
-li {
-display:block;
-float: right;
-padding:18px 12px;
-font-weight: 600;
-height: 70px;
-pointer-events: all;
-}
-
-.introduccion{
-    width: 50%;
-    margin: 30px 60px;
-    float: left;
-    background: #e9e8e8;
-    border-bottom: 1px solid ;
     padding: 10px;
-    height: 400px;
-    border-radius: 100%;
+    
 }
 
-h1 {
-    font-size: 32px;
-    text-align: center;
-    margin-top: 5px;
-    font-weight: 600;
-    margin-left: 0;
-}
-
-p {
-    font-size: 16px;
-    margin-left: 90px;
-    text-align: center;
-    width: 70%;
-}
-
-.parallax-container {
-    height: 250px;
-    margin: 50px 0;
-  }
-
-.imgCarousel{
-  height: 120px;
-  width: 130px;
-  margin:20px;
-}
-
-
-/* body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-  }
-
-  main {
-    flex: 1 0 auto;
-  } */
-
-/* .image{
- height: 300px;
+.borderF{
+    border-bottom: #FF4081 5px solid;
+    margin-bottom: 50px;
 }
 
 .card{
-  height:  550px;
+    margin-top: 50px;
 }
-
-.stefanini{
-    border-radius:20px;
-    margin-top: 80px;
-}
-a{
-    color: #000000;;
-}
-a:hover{
-    color:#ffffff;
-}
-
-.imagenesVar{
-    margin: 80px 0 0 150px;
-}
-
-
-    .perfil{
-        width: 50%;
-        height: 200px;
-        border-radius: 100%;
-    }
-
-    .container{
-        margin: 50px 0 0 5% ;
-        padding: 25px;
-        text-align: center;
-    }
-
-}
-
-
-
-
-
-    .perfil{
-        width: 70%;
-        height: 200px;
-        border-radius: 100%;
-    }
-
-    .container{
-        margin:50px 0 0 4% ;
-        padding: 25px;
-        text-align: center;
-    }
-
-    .avatar {
-        border-radius: 100%;
-        width: 50%;
-        height: 150px;
-    }
-    .intro {
-        text-align: center;
-        padding-top: 100px;
-    }
-
-    .introText {
-        height: 50%;
-      
-    }
-    h2 {
-        font-size: 28px;
-        color:#e9e8e8;
-        font-family: sans-serif;;
-        font-weight: 500;
-        margin-top: 3px;
-    }
-    h3 {
-        font-size: 18px;
-        color:#e9e8e8;
-        font-family: sans-serif;
-        font-weight: 100;
-        margin-bottom: 0;
-        margin-bottom: 25px;
-    }
-
-.mobile {
-    display: block;
-}
-
-.avatarMedium {
-    width: 80%;
-    height: 55px;
-}
-
-.desk {
-    display: none;
-}
-
-h1 {
-    font-size: 32px;
-    text-align: center;
-    margin-top: 5px;
-    font-weight: 600;
-    margin-bottom: 5px;   
-}
-
-p {
-    font-size: 14px;
-    width: 90%;
-    text-align: center;
-    margin: 5px 15px;
-}
-
-/* .bloqueMenu{
-    height: 640px;
-    padding-top:60px; 
-} */
-
-/* #projects{
-    height: 645px;
-    padding: 0;
-}
-
-  section{
-    height: 649px;
-    padding-top: 60px;
-}
-
-#contacto{
-  padding: 20px;
-   height: 550px; 
-   background: teal;
-   margin:0;
-
-}
-
-.card{
-    height:  510px;
-    margin: 15px 0;
-  }
-
-  .stefanini{
-      border-radius:20px;
-  }
-
-  .nav{
-    width: 200px;
-}
-.carousel{
-    display: none;
-}
-
-}  */
-
-/* imagenes */
-
-
- 
