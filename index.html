@@ -20,21 +20,21 @@
           <a href="#!" class="brand-logo"><img class="avatarMedium" src="logo.png" alt="avatar"></a>
           <a href="#" data-target="menu-responsive" class="sidenav-trigger "><i class="material-icons black-text">menu</i></a>
           <ul class=" right hide-on-small-only hide-on-med-only">
-            <li><a href="#inicio" class="black-text hoverable">INICIO</a></li>
-            <li><a href="#acercaDeMi" class="black-text hoverable">ACERCA DE MÍ</a></li>
-            <li><a href="#skills" class="black-text hoverable">SKILLS</a></li>
-            <li><a href="#projects" class="black-text hoverable">PROYECTOS</a></li>
-            <li><a href="#contacto" class="black-text hoverable">CONTÁCTAME</a></li>
+            <li><a href="#inicio" class="hoverable">INICIO</a></li>
+            <li><a href="#acercaDeMi" class="hoverable">ACERCA DE MÍ</a></li>
+            <li><a href="#skills" class="hoverable">HABILIDADES</a></li>
+            <li><a href="#projects" class="hoverable">PROYECTOS</a></li>
+            <li><a href="#contacto" class="hoverable">CONTÁCTAME</a></li>
           </ul>
         </div>
       </nav> 
     </div>
-      <ul class="sidenav " id="menu-responsive">
-          <li><a href="#inicio" class="black-text sidenav-close">INICIO</a></li>
-          <li><a href="#acercaDeMi" class="black-text sidenav-close">ACERCA DE MÍ</a></li>
-          <li><a href="#skills" class="black-text sidenav-close">SKILLS</a></li>
-          <li><a href="#projects" class="black-text sidenav-close">PROYECTOS</a></li>
-          <li><a href="#contacto" class="black-text sidenav-close">CONTÁCTAME</a></li>
+      <ul class="sidenav" id="menu-responsive">
+          <li class="hoverable"><a href="#inicio" class="sidenav-close">INICIO</a></li>
+          <li class="hoverable"><a href="#acercaDeMi" class="sidenav-close">ACERCA DE MÍ</a></li>
+          <li class="hoverable"><a href="#skills" class="sidenav-close">HABILIDADES</a></li>
+          <li class="hoverable"><a href="#projects" class="sidenav-close">PROYECTOS</a></li>
+          <li class="hoverable"><a href="#contacto" class="sidenav-close">CONTÁCTAME</a></li>
       </ul>
 
     <!-- Inicio del portafolio -->
@@ -53,14 +53,14 @@
     </section>
 
     <!-- Acerca de mi del portafolio -->
-    <section id="acercaDeMi" class="scrollspy">
+    <section id="acercaDeMi">
       <div class="container">
         <div class="row center">
             <h2 class="teal-text">ACERCA DE MÍ</h2>
         </div>
         <div class="row">
           <div class="col s12 m6 l6">
-              <h6 class="center">
+              <h6 class="center-align-justify">
                 Mi nombre es Andrea Ybañez, tengo 22 años, soy Front-End Developer de la 8va promoción de Laboratoria, con estudios en Ingenieria de Sistemas.
                 Mi gran inspiración es saber que gracias al aporte de mis ideas y del trabajo en equipo se crean productos tecnológicos que agregan valor a las personas y que generen alto impacto. 
                 Busco aprender de manera constante con proyectos que me reten técnicamente.  
@@ -76,31 +76,35 @@
 
     <!-- sección de proyectos en portafolio -->
 
-    <section id="skills" class="scrollspy">
+    <section id="skills">
       <div class="container">
         <div class="row center">
-            <h2 class="teal-text">SKILLS</h2>
+            <h2 class="teal-text">HABILIDADES</h2>
         </div>
-        <div class="row center">
+        <div class="row center hide-on-small-only hide-on-med-only">
           <div class="col s12 m6 l6 ">
-            <h5 class="pink-text center">SOFT</h5>
-              <i class="fas fa-users large icon"><br><label class="black-text "> TRABAJO EN EQUIPO</label></i>
-              <i class="fas fa-book-reader large icon"><br><label class="black-text"> AUTODIDACTA</label></i>
-              <i class="fas fa-handshake large icon"><br><label class="black-text">   COMPROMISO</label></i>
-              <i class="far fa-clock large icon"><br><label class="black-text">      PUNTUALIDAD</label></i>             
+            <h5 class="pink-text center">BLANDAS</h5>
+            <img src="imagenes/HABILIDADES.png">       
           </div>
           <div class="col s12 m6 l6 black-text">
-              <h5 class="pink-text center">TECH</h5>
-              <i class="fab fa-js-square large icon"><br><label class="black-text"> JAVASCRIPT</label></i>           
-              <i class="fab fa-css3-alt large icon"><br><label class="black-text"> CSS</label></i>
-              <i class="fab fa-github icon large"><br><label class="black-text"> GIT-HUB</label></i>
-              <i class="fab fa-html5 icon large"><br><label class="black-text"> HTML</label></i>
+              <h5 class="pink-text center">TÉCNICAS</h5>
+              <img src="imagenes/HABILIDADES.png">
           </div>
         </div>
+        <div class="row center hide-on-large-only">
+            <div class="col s12">
+              <h5 class="pink-text center">SOFT</h5>
+                <img src="imagenes/HABILIDADES.png">            
+            </div>
+            <div class="col s12 black-text">
+            <h5 class="pink-text center">TECH</h5>
+                <img src="imagenes/tech.png">
+            </div>
+          </div>
       </div>
     </section>
 
-    <section id="projects" class="section scrollspy">
+    <section id="projects">
         <div class="row center">
             <h2 class="pink-text">PROYECTOS</h2>
         </div>
@@ -165,36 +169,43 @@
   </section>
 
     <footer id="contacto" class="section scrollspy">
-      <div class="container">
+      <div class="contFooter">
         <div class="row center footerClass">
           <div class="col s12 m6 l6 white-text">
-              <h3>Contacto</h3>
-              
-                  <div class=" col s4 m4 l4 ">
-                      <i class="fas fa-home fa-4x"></i>  Lima 
-                  </div>
-                  <div class="col s4 m4 l4">
-                      <i class="	fa fa-phone-square fa-4x">  </i>  930692689 
+              <h4 class="white-text">Contacto</h4><br>
+                  <div class="col s6 m6 l6">
+                      <i class="	fa fa-phone-square fa-2x"></i><br>
+                      <label class="white-text">930692689</label>   
                  </div>
-                  <div class="col s4 m4 l4">
-                      <i class="material-icons fa-4x">email</i>andrea270696<br>@gmail.com   
-                  </div>              
+                  <div class="col s6 m6 l6">
+                      <a href="pdf/CV-AndreaYbanezEsquerre.pdf" download="cv_AndreaYbañez" class="far fa-file-alt fa-2x  white-text"></a><br>
+                      <label class="white-text">Descargar CV</label> 
+                  </div>  
+                  <div class=" col s12 m12 l12 ">
+                     <i class="material-icons fa-2x">email</i><br>
+                      <label class="white-text">andrea270696@gmail.com</label>  
+                  </div>            
                 
           </div>
           <div class="col s12 m6 l6 white-text footerClass">
-              <h3>Redes Sociales</h3>
+              <h4 class="white-text">Redes Sociales</h4><br>
               <div class=" col s4 m4 l4">
-                  <a href="https://github.com/aybaneze" target="_blank" class="fab fa-github fa-4x white-text"></a>
+                  <a href="https://github.com/aybaneze" target="_blank" class="fab fa-github fa-2x white-text"></a>
                 </div>
                 <div class="col s4 m4 l4">
-                    <a href="https://www.linkedin.com/in/andreaybanezesquerre/" target="_blank" class="fab fa-linkedin fa-4x white-text"></a>
+                    <a href="https://www.linkedin.com/in/andreaybanezesquerre/" target="_blank" class="fab fa-linkedin fa-2x white-text"></a>
                 </div>
                 <div class="col s4 m4 l4">
-                    <a href="https://plus.google.com/u/0/+andreayba%C3%B1ez" target="_blank" class="fab fa-google-plus-square fa-4x white-text"></a>    
+                    <a href="https://plus.google.com/u/0/+andreayba%C3%B1ez" target="_blank" class="fab fa-google-plus-square fa-2x white-text"></a>    
                 </div>  
           </div>
         </div>
       </div>
+      <div class="footer-copyright center">
+          <div class="cont">
+          © 2018 Realizado por: Andrea Ybañez
+          </div>
+        </div>
     </footer>
     <script src="app.js"></script>
 </body>

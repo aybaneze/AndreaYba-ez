@@ -1,7 +1,7 @@
 /* *{
     border: #000000 1px solid;
 } */
-body html{
+body{
   width: 100%;
   height: 100%;
   margin: 0;
@@ -11,8 +11,13 @@ body html{
     padding:4% 20% 4% 20%;
 }
 
+.hoverable{
+    color:#212121;
+    background: #ffffff;
+}
 .hoverable:hover{
     background: #FF4081;
+    color:white;
 }
 
 h6{
@@ -35,15 +40,16 @@ label{
 footer{
 background: teal;
 margin:0;
+/* height: 350px; */
+padding: 400px 0 0 0;
 }
 
 a{
     text-decoration: none;
 }
 
-.footerClass{
-    margin:0;
-    padding: 0 0 50px 0;
+.contFooter{
+    height: 50vh;
 }
 
 .imgProyect{
@@ -59,6 +65,7 @@ a{
 
 .borderF{
     border-bottom: #FF4081 5px solid;
+    border-bottom: #FF4081 5px solid;
     margin-bottom: 50px;
 }
 
@@ -66,7 +73,22 @@ a{
     margin-top: 50px;
 }
 
-section{
- padding: 50px 0 60px 0;
- border-top:#BDBDBD 0.5px solid;
+.labelPhone{
+    font-size:9px;
+    color: bold;
+    height: 5px;
+    border-bottom: teal 2px solid; 
+}
+
+.cont{
+    background: rgb(1, 83, 83);
+}
+
+.container{
+    height: 100vh; 
+    padding-top: 60px;
+}
+
+h3{
+    padding-bottom: 30px;
 }
