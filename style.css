@@ -8,7 +8,11 @@ body{
 } 
 
 .inicioImg{
-    padding:4% 20% 4% 20%;
+    padding:5% 30% 0 30%;
+}
+
+.inicioBtn{
+    padding:0 15% 2% 15%;
 }
 
 .hoverable{
@@ -22,6 +26,10 @@ body{
 
 h6{
     padding: 7px;
+}
+
+h5{
+    padding-bottom: 15px;
 }
 
 .icon{
@@ -40,16 +48,15 @@ label{
 footer{
 background: teal;
 margin:0;
-/* height: 350px; */
-padding: 400px 0 0 0;
+height: 60vh;
+}
+
+.container{
+    height: 100%;
 }
 
 a{
     text-decoration: none;
-}
-
-.contFooter{
-    height: 50vh;
 }
 
 .imgProyect{
@@ -59,8 +66,7 @@ a{
 
 .imgLaptop{
     width: 80%;
-    padding: 10px;
-    
+    padding: 10px;   
 }
 
 .borderF{
@@ -80,15 +86,22 @@ a{
     border-bottom: teal 2px solid; 
 }
 
-.cont{
-    background: rgb(1, 83, 83);
+
+#acercaDeMi, #skills{
+    height: 100vh;
+    padding-top: 30px; 
+    border-bottom: #dbd8d8 2px solid;
+}
+#projects{
+    padding-top: 30px; 
+    padding-bottom: 20px; 
+    border-bottom: #dbd8d8 2px solid;
 }
 
-.container{
-    height: 100vh; 
-    padding-top: 60px;
+#inicio{
+    height: 100vh;
 }
 
 h3{
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
