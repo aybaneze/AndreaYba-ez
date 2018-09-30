@@ -29,6 +29,8 @@ h6{
 }
 
 h5{
+    margin-top: 0;
+    margin-bottom: 0;
     padding-bottom: 15px;
 }
 
@@ -48,7 +50,13 @@ label{
 footer{
 background: teal;
 margin:0;
-height: 60vh;
+height: 89vh;
+padding-top: 15%;
+}
+
+.iconMenu{
+    border-radius: 5px;
+    border: teal;
 }
 
 .container{
@@ -104,4 +112,10 @@ a{
 
 h3{
     padding-bottom: 20px;
+}
+
+
+h2{
+    margin-bottom: 5px;
+    border-bottom: #FF4081 3px solid;
 }

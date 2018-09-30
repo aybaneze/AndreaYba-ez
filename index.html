@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous"> 
+    <script src="jquery-3.3.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <!-- Compiled and minified JavaScript -->        
     <link rel="stylesheet" href="style.css">
@@ -18,7 +19,7 @@
     <nav>
         <div class="nav-wrapper white">
           <a href="#!" class="brand-logo"><img class="avatarMedium" src="logo.png" alt="avatar"></a>
-          <a href="#" data-target="menu-responsive" class="sidenav-trigger "><i class="material-icons black-text">menu</i></a>
+          <a href="#" data-target="menu-responsive" class="sidenav-trigger"><i class="material-icons black-text">menu</i></a>
           <ul class=" right hide-on-small-only hide-on-med-only">
             <li><a href="#inicio" class="hoverable">INICIO</a></li>
             <li><a href="#acercaDeMi" class="hoverable">ACERCA DE MÍ</a></li>
@@ -60,16 +61,25 @@
         </div>
         <div class="row">
           <div class="col s12 m6 l6">
-              <h6 class="center-align-justify">
+              <h6 class="center-align-justify hide-on-small-only"">
                 Mi nombre es Andrea Ybañez, tengo 22 años, soy Front-End Developer de la 8va promoción de Laboratoria, con estudios en Ingenieria de Sistemas.
                 Mi gran inspiración es saber que gracias al aporte de mis ideas y del trabajo en equipo se crean productos tecnológicos que agregan valor a las personas y que generen alto impacto. 
                 Busco aprender de manera constante con proyectos que me reten técnicamente.  
                 Aspiro a ser una programadora full-stack en el futuro. Me encanta el diseño, y lo genial del desarrollo web es que puedo plasmar el arte en código. 
               </h6>
+              <h6 class="center-align-justify hide-on-large-only hide-on-med-only">
+                Mi nombre es Andrea Ybañez, tengo 22 años, soy Front-End Developer de la 8va promoción de Laboratoria, con estudios en Ingenieria de Sistemas.
+                Mi gran inspiración es saber que gracias al aporte de mis ideas y del trabajo en equipo se crean productos tecnológicos que agregan valor a las personas y que generen alto impacto. 
+                Busco aprender de manera constante con proyectos que me reten técnicamente.  
+                Me encanta el diseño, y sé que puedo plasmar el arte en código. 
+              </h6>
           </div>
-          <div class="col s12 m6 l6">
-              <img class="col m12 s12 l12 stefanini responsive-img" src="stefanini.jpeg">
+          <div class="col s12 m6 l6 hide-on-small-only">
+              <img class="col m12 s12 l12 stefanini" src="stefanini.jpeg">
           </div>
+          <div class="col s12 m6 l6 hide-on-large-only hide-on-med-only">
+            <img class="col m12 s12 l12 stefanini" src="imagenes/stefanini2.jpg">
+        </div>
         </div>
       </div>
     </section>
@@ -104,11 +114,11 @@
       </div>
     </section>
 
-    <section id="projects">
-        <div class="row center">
-            <h2 class="pink-text">PROYECTOS</h2>
-        </div>
+    <section id="projects">       
       <div class="container borderF">
+          <div class="row center">
+              <h2 class="pink-text">PROYECTOS</h2>
+          </div>
         <div class="row center">          
             <h3 class="teal-text">RED SOCIAL</h3>
             <div class="col m6 l6 s12 center hide-on-medium-only">
@@ -169,7 +179,7 @@
       </div>
   </section>
 
-    <footer id="contacto" class="scrollspy">
+    <footer id="contacto">
       <div class="container">
         <div class="row center">
           <div class="col s12 m6 l6 white-text">
