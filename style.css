@@ -48,7 +48,9 @@ label{
 footer{
 background: teal;
 margin:0;
-height: 60vh;
+height: 87vh;
+padding-top: 10%;
+padding-right: 4%;
 }
 
 .container{
@@ -108,4 +110,8 @@ h3{
 }
 h2{
 border-bottom: #FF4081 3px  solid;
+}
+
+.texto{
+    margin-top: 7%;
 }
