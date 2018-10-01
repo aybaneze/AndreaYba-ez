@@ -25,7 +25,10 @@ body{
 }
 
 h6{
-    padding: 7px;
+    text-align: justify;
+    font-size: 18px;
+    line-height: normal;
+    margin-bottom: 50px;
 }
 
 h5{
@@ -55,7 +58,6 @@ padding-right: 4%;
 
 .container{
     height: 100%;
-    padding-right: 0 !important;
 }
 
 a{
@@ -73,9 +75,9 @@ a{
 }
 
 .borderF{
-    border-bottom: #FF4081 5px solid;
-    border-bottom: #FF4081 5px solid;
+    box-shadow: 0 0 10px #444444;
     margin-bottom: 50px;
+    padding:10px 50px 10px 50px;
 }
 
 .card{
@@ -93,28 +95,50 @@ a{
 #acercaDeMi{
     height: auto;
     padding-top: 80px;  
+    padding-bottom: 50px;  
 }
 #skills{
     height: auto;
-    padding-top: 80px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 #projects{
-    padding-top: 70px; 
-    padding-bottom: 20px; 
+    padding-top: 50px; 
+    padding-bottom: 50px;
 }
 
 #inicio{
-    height: 100vh;
+    height: 95vh;
+    padding-top: 2%;
 }
 
 h3{
     padding-bottom: 15px;
    
 }
+
 h2{
-border-bottom: #FF4081 3px  solid;
+float: center;
+}
+u{
+   color:  #FF4081;
 }
 
 .texto{
     margin-top: 7%;
+}
+
+.pad{
+    margin-bottom :30px;
+}
+
+.footer-copyright{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .inicioImg{
+        padding:25% 20% 0 20%;
+    }
 }
