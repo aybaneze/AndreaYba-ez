@@ -55,6 +55,7 @@ padding-right: 4%;
 
 .container{
     height: 100%;
+    padding-right: 0 !important;
 }
 
 a{
@@ -91,14 +92,14 @@ a{
 
 #acercaDeMi{
     height: auto;
-    padding-top: 50px;  
+    padding-top: 80px;  
 }
 #skills{
     height: auto;
-    padding-top: 50px;
+    padding-top: 80px;
 }
 #projects{
-    padding-top: 50px; 
+    padding-top: 70px; 
     padding-bottom: 20px; 
 }
 
