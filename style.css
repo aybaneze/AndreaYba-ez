@@ -67,32 +67,61 @@ body{
 } 
 .logo-principal{
     height: 100%;
-    display: grid;
+    display: flex;
+    justify-content: center;
     align-content: center;
 }
-.logo-principal div span{
+div.arrow-logo span{
     font-size: 56px;
     color: #444444;
 }
-.logo-principal div.arrow-logo{
-    margin-top: 75px;
-    -webkit-animation: mover 0.7s infinite  alternate;
-    animation: mover 0.7s infinite  alternate;
+#inicio div.arrow-logo{
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+    animation: mover 0.7s infinite alternate;
+    left: 0;
 }
 .contenedor-img-perfil .img-perfil{
-    border-radius:100%;
+    width: 100%;
+    height: 100%;
+}
+section#presentacion{
+    position: relative;
+    padding-top: 70px;
+    height: 100vh;
 }
 .subtexto{
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    top: 35px;
+    height: 100px !important;
+}
+.subtexto h2{
     font-family: 'Oswald', sans-serif;
-    font-size: 36px;
+    font-size: 90px;
     font-weight: 800;
+    max-width: 530px;
+    margin: auto;
+    background: #fff;
+    padding: 15px 5px;
+    border-radius: 34px;
+}
+.text-container p{
+    font-size: 18px;
+    text-align: center;
+    font-family:  'Exo', sans-serif;
+    font-weight: 600;
+    margin-top: 80px;
 }
 .row{
     height: 100%;
 }
 .logo{
-    max-width: 300px;
     max-height: 400px;
+    max-width: 300px;
     margin: auto;
 }
 .logo-text em{
@@ -107,6 +136,21 @@ body{
     font-size: 32px;
     font-weight: bold;
     margin: 0;
+}
+.container{
+    width: 85%;
+}
+.contenedor-img-perfil{
+    position: relative;
+    min-width: 50%;
+    max-width: 50%;
+}
+.contenedor-img-perfil span.cuadro-img{
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0);
+    position: absolute;
+    z-index: -1;
 }
 
 .inicioBtn{
@@ -212,6 +256,7 @@ a{
     height: 100vh;
     background-image: url('./imagenes/fondo-abstracto.png');
     background-size: contain;
+    position: relative;
 }
 
 h3{
@@ -227,7 +272,17 @@ u{
 }
 
 .texto{
-    margin-top: 7%;
+    display: flex;
+    position: relative;
+    min-height: 600px;
+}
+.text-container{
+    max-width: 50%;
+    right: 65px;
+    border: 60px solid;
+    padding: 25px 61px;
+    top: 30px;
+    z-index: -1;
 }
 
 .pad{
