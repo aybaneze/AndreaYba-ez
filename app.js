@@ -7,6 +7,17 @@ document.addEventListener('DOMContentLoaded', function() {
   var instances = M.Sidenav.init(elems, options);
 });
 
+$('document').ready(function() {
+  $('a.link-rel').click(function(e){
+      e.preventDefault();
+      var enlace = $(this).attr('href');
+      // alert(enlace);
+      $('html, body').animate({
+          scrollTop: $(enlace).offset().top
+      }, 1000);
+  });
+});
+
 // document.addEventListener('DOMContentLoaded', function() {
 //   var elems = document.querySelectorAll('.scrollspy');
 //   var instances = M.ScrollSpy.init(elems, options);
