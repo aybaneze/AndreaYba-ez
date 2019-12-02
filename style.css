@@ -77,36 +77,39 @@ div.arrow-logo span{
 }
 #inicio div.arrow-logo{
     position: absolute;
-    bottom: 0px;
+    bottom: 5vh;
     right: 0;
     animation: mover 0.7s infinite alternate;
     left: 0;
+    text-align: center;
 }
 .contenedor-img-perfil .img-perfil{
-    width: 100%;
-    height: 100%;
+    /* width: 100%; */
+    /* height: 100%; */
 }
 section#presentacion{
     position: relative;
-    padding-top: 70px;
+    padding-top: 25px;
     height: 100vh;
+    background-image: url(./imagenes/fondo-abstracto.png);
 }
 .subtexto{
-    position: absolute;
-    z-index: 1;
-    left: 0;
-    right: 0;
-    top: 35px;
-    height: 100px !important;
+    /* position: absolute; */
+    /* z-index: 1; */
+    /* left: 0; */
+    /* right: 0; */
+    /* top: 35px; */
+    /* height: 100px !important; */
 }
 .subtexto h2{
     font-family: 'Oswald', sans-serif;
-    font-size: 90px;
+    font-size: 65px;
     font-weight: 800;
-    max-width: 530px;
+    /* max-width: 530px; */
+    text-align: center;
     margin: auto;
-    background: #fff;
-    padding: 15px 5px;
+    background: transparent;
+    /* padding: 15px 5px; */
     border-radius: 34px;
 }
 .text-container p{
@@ -114,7 +117,8 @@ section#presentacion{
     text-align: center;
     font-family:  'Exo', sans-serif;
     font-weight: 600;
-    margin-top: 80px;
+    /* margin-top: 80px; */
+    max-width: 555px;
 }
 .row{
     height: 100%;
@@ -122,6 +126,7 @@ section#presentacion{
 .logo{
     max-height: 400px;
     max-width: 300px;
+    text-align: center;
     margin: auto;
 }
 .logo-text em{
@@ -144,6 +149,7 @@ section#presentacion{
     position: relative;
     min-width: 50%;
     max-width: 50%;
+    text-align: center;
 }
 .contenedor-img-perfil span.cuadro-img{
     width: 100%;
@@ -203,6 +209,7 @@ padding-right: 4%;
 
 .container{
     height: 100%;
+    margin: auto;
 }
 
 a{
@@ -222,7 +229,6 @@ a{
 .borderF{
     box-shadow: 0 0 10px #444444;
     margin-bottom: 50px;
-    padding:10px 50px 10px 50px;
 }
 
 .card{
@@ -273,16 +279,45 @@ u{
 
 .texto{
     display: flex;
+    align-items: center;
     position: relative;
-    min-height: 600px;
+    min-height: 524px;
+    justify-content: center;
 }
 .text-container{
     max-width: 50%;
-    right: 65px;
-    border: 60px solid;
-    padding: 25px 61px;
-    top: 30px;
-    z-index: -1;
+    position: relative;
+    /* right: 65px; */
+    /* border: 60px solid; */
+    padding: 20px 30px;
+    /* top: 30px; */
+    /* z-index: -1; */
+}
+.text-container:before{
+    right: 0;
+    left: 0;
+    top: 0;
+    display: inline-block;
+    position: absolute;
+    content: "";
+    width: 40px;
+    height: 40px;
+    border-left: 6px solid #000;
+    border-top: 6px solid #000;
+    animation: crecer 2s infinite alternate;
+}
+
+.text-container:after{
+    right: 0;
+    bottom: 0;
+    display: inline-block;
+    position: absolute;
+    content: "";
+    width: 40px;
+    height: 40px;
+    border-right: 6px solid #000;
+    border-bottom: 6px solid #000;
+    animation: crecer 2s infinite alternate;
 }
 
 .pad{
@@ -310,13 +345,18 @@ background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, F
         min-width: 100%;
         max-width: 100%;
     }
+    .contenedor-img-perfil .img-perfil {
+        width: 100%;
+        height: 100%;
+    }
     .text-container {
         max-width: 100%;
-        right: 65px;
-        border: 7px solid;
-        padding: 5px;
+        /* right: 65px; */
+        /* border: 7px solid; */
+        padding: 26px;
         top: 30px;
-        z-index: -1;
+        /* z-index: -1; */
+        margin: 15px;
     }
     .text-container p {
         font-size: 14px;
@@ -341,4 +381,9 @@ background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, F
 @keyframes mover {
     0% { transform: translateY(0); }
     100% { transform: translateY(-10px); }
+}
+
+@keyframes crecer {
+    0% { width: 10px; height: 10px;}
+    100% {  width: 90%; height: 90%;}
 }
