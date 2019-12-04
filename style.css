@@ -83,14 +83,23 @@ div.arrow-logo span{
     left: 0;
     text-align: center;
 }
-.contenedor-img-perfil .img-perfil{
-    /* width: 100%; */
-    /* height: 100%; */
+.contenedor-img-perfil .img-perfil.front{
+    position: absolute;
+    left: 0;
+    /* max-width: 355px; */
+    right: 0;
+    margin: auto;
+    min-height: 410px;
+    z-index: -1;
+}
+.contenedor-img-perfil .img-perfil.in{
+    animation: foto 20s infinite alternate;
 }
 section#presentacion{
     position: relative;
     padding-top: 25px;
     height: 100vh;
+    z-index: 0;
     background-image: url(./imagenes/fondo-abstracto.png);
 }
 .subtexto{
@@ -399,4 +408,8 @@ background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, F
 @keyframes title-move {
     0% {transform: scaleY(0.7);}
     100% {transform: scaleY(1);}
+}
+@keyframes foto {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
 }
